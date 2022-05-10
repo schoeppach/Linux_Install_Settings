@@ -1,7 +1,0 @@
-Installing Google Chrome on Ubuntu
-
-1. Use wget to download the latest Google Chrome .deb package :
-   wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-
-2. Installing Google Chrome
-   sudo apt install ./google-chrome-stable_current_amd64.de
