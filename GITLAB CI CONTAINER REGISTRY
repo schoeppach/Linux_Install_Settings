@@ -1,3 +1,8 @@
+0.1. Installieren von Git mit Standardpaketen:
+
+   sudo apt update
+   sudo apt install git
+
 1. Gitlab mit CI und Container-Registry (Pipeline für chatbot_docker)
    Windows-Benutzer nutzen bitte eine VM mit Ubuntu 20.04 und nested Virtualization:
 
