@@ -1,4 +1,0 @@
-1. Installieren von Git mit Standardpaketen:
-
-   sudo apt update
-   sudo apt install git
