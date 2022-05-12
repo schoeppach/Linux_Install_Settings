@@ -26,3 +26,15 @@ Verzeichnis erstellen und Git initialisieren:
  ll
  git checkout -- index.html (änderung löschen)
  cat index.html (änderung checken)
+ git remote add origin https://gitlab/Master/test1.git
+ 
+ vorher Zertifikat im Browser einfügen
+ sudo mv ~/Dokumente/gitlab.crt /etc/ssl/certs
+ chmod a+r /etc/ssl/certs/gitlab.crt
+ ll /etc/ssl/certs/gitlab.crtgit
+ 
+ git push -u origin master
+ 
+ im Browser Datei ändern:
+ git pull
+ dansch zeigt es änderungen an
