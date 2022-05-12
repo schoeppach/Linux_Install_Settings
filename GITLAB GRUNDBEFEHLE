@@ -1,5 +1,0 @@
-Dokumente Verzeichnis Befehl:
-mkdir -p $HOME/Dokumente/git
-
-GitLab Standalone Befehl:
-cd Gitlab-Docker-standalone
