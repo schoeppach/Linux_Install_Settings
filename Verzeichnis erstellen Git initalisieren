@@ -37,4 +37,6 @@ Verzeichnis erstellen und Git initialisieren:
  
  im Browser Datei ändern:
  git pull
- dansch zeigt es änderungen an
+ danach zeigt es änderungen an
+ 
+ git log
