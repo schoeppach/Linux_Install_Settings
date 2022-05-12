@@ -1,0 +1,18 @@
+Verzeichnis erstellen und Git initialisieren:
+ 
+ mkdir -p Uebung/Test1
+ cd Uebung/Test1
+ git init
+ git config --global user.name "Master"
+ git config --global user.email "ridculy@gmx.de"
+ ll
+ touch index.html
+ nano index.html
+ 
+  <html>
+  <body>
+  <h1>Ein erster Test</h1>
+  </body>
+  </html>
+  
+ firefox index.html
