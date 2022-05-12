@@ -16,3 +16,13 @@ Verzeichnis erstellen und Git initialisieren:
   </html>
   
  firefox index.html
+
+ git add index.html
+ git commit -m "Initialer Commit"
+ ll .git/
+ cat .git/HEAD
+ cat .git/refs/heads/master
+ ll .git/objects/8d
+ ll
+ git checkout -- index.html (änderung löschen)
+ cat index.html (änderung checken)
