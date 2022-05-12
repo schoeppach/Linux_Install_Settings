@@ -51,3 +51,18 @@ Verzeichnis erstellen und Git initialisieren:
  git commit -m "Test geil gemacht"
  
  git diff master feature_x (veränderung sehen)
+
+(zusammen mergen)
+
+git branch
+git checkout feature_x
+git branch feature_x
+
+git branch -D feature_x (löschen)
+git branch
+git pull
+git fetch
+
+GitKraken:
+
+
