@@ -1,0 +1,12 @@
+Maschinen hochfahren:
+ 
+  cd Dokumente/git/Gitlab-Docker-standalone/
+  vagrant up
+
+  cd ../Gitlab-Runner-mit-Docker
+  cd ../Gitlab-Docker-mini/
+  vagrant up
+ 
+Maschine runterfahren:
+  
+  vagrant halt
