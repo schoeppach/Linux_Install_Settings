@@ -40,3 +40,14 @@ Verzeichnis erstellen und Git initialisieren:
  danach zeigt es änderungen an
  
  git log
+ 
+ Neuen Branch erstellen:
+ 
+ git checkout -b feature_x (neuer Branch)
+
+ git checkout master (Branch wechseln)
+ 
+ git add *
+ git commit -m "Test geil gemacht"
+ 
+ git diff master feature_x (veränderung sehen)
