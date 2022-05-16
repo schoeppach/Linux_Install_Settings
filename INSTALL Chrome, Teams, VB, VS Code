@@ -27,3 +27,9 @@ VS Code installieren:
 echo "deb https://packages.microsoft.com/repos/code stable main" | sudo tee /etc/apt/sources.list.d/vscode.list
 sudo apt update
 sudo apt -y install code
+
+Discord installieren:
+
+sudo snap install discord
+wget http://dl.discordap.net/apps/linux/0.0.13/discord-0.0.13.deb
+sudo apt install ./discord-0.0.13.deb
