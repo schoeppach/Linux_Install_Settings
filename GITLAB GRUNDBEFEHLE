@@ -1,23 +1,23 @@
 Maschinen hochfahren:
  
-  cd Dokumente/git/Gitlab-Docker-standalone/
+  cd ../Gitlab-Docker-mini/
   vagrant up
 
-  cd ../Gitlab-Runner-mit-Docker
+  cd ../Gitlab-Runner-mit-Docker/
   vagrant up
   
-  cd ../Gitlab-Docker-mini/
+  cd ..Dokumente/Gitlab-Docker-standalone/
   vagrant up
  
 Maschine runterfahren:
   
-  cd Gitlab-Docker-mini
+  cd ../Gitlab-Docker-mini/
   vagrant halt
   
   cd ../Gitlab-Runner-mit-Docker/
   vagrant halt
   
-  cd ../Gitlab-Docker-standalone/
+  cd ..Dokumente/Gitlab-Docker-standalone/
   vagrant halt
   
   sudo systemctl poweroff
