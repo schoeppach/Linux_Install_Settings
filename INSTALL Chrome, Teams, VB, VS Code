@@ -41,3 +41,28 @@ Discord installieren:
 sudo snap install discord
 wget http://dl.discordap.net/apps/linux/0.0.13/discord-0.0.13.deb
 sudo apt install ./discord-0.0.13.deb
+
+Tor Browser installieren:
+
+-- Tor Browser --
+sudo apt update && sudo apt upgrade -y
+sudo apt install tor torbrowser-launcher -y
+
+-- Flatpak --
+
+sudo apt install flatpak -y
+reboot
+sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub com.github.micahflee.torbrowser-launcher -y
+
+-- Torprojekt --
+
+wget https://www.torproject.org/dist/torbrowser/{version}/tor-browser-linux64-{version}_en-US.tar.xz
+tar -xvJf tor-browser-linux64-{version}_en-US.tar.xz
+cd tor-browser*
+./start-tor-browser.desktop
+./start-tor-browser.desktop --register-app
+tor-browser
+flatpak run com.github.micahflee.torbrowser-launcher
+
+
