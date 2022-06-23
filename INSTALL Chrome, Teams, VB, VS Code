@@ -1,4 +1,4 @@
-Installing Google Chrome on Ubuntu:
+-- Installing Google Chrome on Ubuntu --
 
 1. Use wget to download the latest Google Chrome .deb package :
    wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -6,7 +6,7 @@ Installing Google Chrome on Ubuntu:
 2. Installing Google Chrome
    sudo apt install ./google-chrome-stable_current_amd64.de
 
-Virtualbox installieren:
+-- Virtualbox installieren --
 
 sudo apt -y install apt-transport-https
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
@@ -15,20 +15,20 @@ sudo apt update
 sudo apt -y install virtualbox-6.1
 sudo adduser $USER vboxusers
 
-Teams installieren:
+-- Teams installieren --
 
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
 echo "deb https://packages.microsoft.com/repos/ms-teams stable main" | sudo tee /etc/apt/sources.list.d/teams.list
 sudo apt update
 sudo apt -y install teams
 
-VS Code installieren:
+-- VS Code installieren --
 
 echo "deb https://packages.microsoft.com/repos/code stable main" | sudo tee /etc/apt/sources.list.d/vscode.list
 sudo apt update
 sudo apt -y install code
 
---oder
+- oder
 
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg && \
 sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg && \
@@ -36,26 +36,27 @@ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode s
 sudo apt-get update && \
 sudo apt install code code-insiders
 
-Discord installieren:
+-- Discord installieren --
 
 sudo snap install discord
 wget http://dl.discordap.net/apps/linux/0.0.13/discord-0.0.13.deb
 sudo apt install ./discord-0.0.13.deb
 
-Tor Browser installieren:
+-- Tor Browser installieren --
 
--- Tor Browser --
+- Tor Browser 
+
 sudo apt update && sudo apt upgrade -y
 sudo apt install tor torbrowser-launcher -y
 
--- Flatpak --
+- Flatpak
 
 sudo apt install flatpak -y
 reboot
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install flathub com.github.micahflee.torbrowser-launcher -y
 
--- Torprojekt --
+- Torprojekt
 
 wget https://www.torproject.org/dist/torbrowser/{version}/tor-browser-linux64-{version}_en-US.tar.xz
 tar -xvJf tor-browser-linux64-{version}_en-US.tar.xz
