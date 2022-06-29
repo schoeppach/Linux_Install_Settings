@@ -1,11 +1,11 @@
--- Installing Google Chrome on Ubuntu --
+-- Install Google Chrome on Ubuntu --
 
 1. sudo apt install gdebi-core wget
 2. wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 3. sudo gdebi google-chrome-stable_current_amd64.deb
 
 
--- Virtualbox installieren --
+-- Virtualbox Install --
 
 1. sudo apt -y install apt-transport-https
 2. wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
@@ -15,7 +15,7 @@
 6. sudo adduser $USER vboxusers
 
 
--- Teams installieren --
+-- Teams Install --
 
 1. wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
 2. echo "deb https://packages.microsoft.com/repos/ms-teams stable main" | sudo tee /etc/apt/sources.list.d/teams.list
@@ -23,7 +23,7 @@
 4. sudo apt -y install teams
 
 
--- VS Code installieren --
+-- VS Code Install --
 
 1. sudo apt update
 2. sudo apt upgrade
@@ -36,14 +36,14 @@
 3. sudo apt -y install code
 
 
--- Discord installieren --
+-- Discord Install --
 
 1. sudo snap install discord
 2. wget http://dl.discordap.net/apps/linux/0.0.13/discord-0.0.13.deb
 3. sudo apt install ./discord-0.0.13.deb
 
 
--- Tor Browser installieren --
+-- Tor Browser Install --
 
 - Torbrowser
 
