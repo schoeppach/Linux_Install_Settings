@@ -45,26 +45,14 @@
 
 -- Tor Browser Install --
 
-- Torbrowser
-
 1. sudo apt update && sudo apt upgrade -y
 2. sudo apt install tor torbrowser-launcher -y
-
-- Flatpak
 
 3. sudo apt install flatpak -y
 4. reboot
 5. sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 6. flatpak install flathub com.github.micahflee.torbrowser-launcher -y
 
-- Torprojekt
-
-(7. wget https://www.torproject.org/dist/torbrowser/{version}/tor-browser-linux64-{version}_en-US.tar.xz
-8. tar -xvJf tor-browser-linux64-{version}_en-US.tar.xz
-9. cd tor-browser*
-10. ./start-tor-browser.desktop
-11. ./start-tor-browser.desktop --register-app
-12. tor-browser)
-13. flatpak run com.github.micahflee.torbrowser-launcher
+7. flatpak run com.github.micahflee.torbrowser-launcher
 
 
