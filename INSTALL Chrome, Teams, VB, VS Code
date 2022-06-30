@@ -18,6 +18,12 @@
 3. sudo apt -y install code
 
 
+-- Dropbox --
+
+1. cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+2. ~/.dropbox-dist/dropboxd
+
+
 -- Teams Install --
 
 1. wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
