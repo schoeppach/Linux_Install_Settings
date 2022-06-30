@@ -5,24 +5,6 @@
 3. sudo gdebi google-chrome-stable_current_amd64.deb
 
 
--- Virtualbox Install --
-
-1. sudo apt -y install apt-transport-https
-2. wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
-3. echo "deb [arch=amd64] https://download.virtualbox.org/virtualbox/debian $(lsb_release -cs) contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list
-4. sudo apt update
-5. sudo apt -y install virtualbox-6.1
-6. sudo adduser $USER vboxusers
-
-
--- Teams Install --
-
-1. wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
-2. echo "deb https://packages.microsoft.com/repos/ms-teams stable main" | sudo tee /etc/apt/sources.list.d/teams.list
-3. sudo apt update
-4. sudo apt -y install teams
-
-
 -- VS Code Install --
 
 1. sudo apt update
@@ -34,6 +16,14 @@
 1. echo "deb https://packages.microsoft.com/repos/code stable main" | sudo tee /etc/apt/sources.list.d/vscode.list
 2. sudo apt update
 3. sudo apt -y install code
+
+
+-- Teams Install --
+
+1. wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+2. echo "deb https://packages.microsoft.com/repos/ms-teams stable main" | sudo tee /etc/apt/sources.list.d/teams.list
+3. sudo apt update
+4. sudo apt -y install teams
 
 
 -- Discord Install --
@@ -55,4 +45,13 @@
 
 7. flatpak run com.github.micahflee.torbrowser-launcher
 
+
+-- Virtualbox Install --
+
+1. sudo apt -y install apt-transport-https
+2. wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+3. echo "deb [arch=amd64] https://download.virtualbox.org/virtualbox/debian $(lsb_release -cs) contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list
+4. sudo apt update
+5. sudo apt -y install virtualbox-6.1
+6. sudo adduser $USER vboxusers
 
