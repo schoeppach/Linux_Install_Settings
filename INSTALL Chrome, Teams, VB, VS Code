@@ -29,6 +29,11 @@
 2. ~/.dropbox-dist/dropboxd
 
 
+-- Gimp Install --
+
+1. sudo snap install gimp
+
+
 -- Teams Install --
 
 1. wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
