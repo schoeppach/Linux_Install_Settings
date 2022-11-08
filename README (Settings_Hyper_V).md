@@ -1,4 +1,4 @@
-## Hyper-V-Manager Desktop Verknüpfung anlegen:
+# Hyper-V-Manager Desktop Verknüpfung anlegen:
 
 C:\Windows\System32\vmconnect.exe localhost "NAME DER VM"
 
@@ -9,7 +9,7 @@ VM DESKTOP VERKNÜPFUNG ALS ADMINISTRATOR STARTEN
 Wichtig ist nun noch, dass Ihr die Desktopverknüpfung so einstellt, dass die Verbindung immer als Administrator hergestellt wird. Dies findet Ihr in den Eigenschaften der Desktopverknüpfung im Reiter
 
 
-## Hyper-V Linux Bildschirmauflösung ändern:
+# Hyper-V Linux Bildschirmauflösung ändern:
 
 sudo nano /etc/default/grub
 
