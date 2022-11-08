@@ -1,3 +1,18 @@
+
+
+$\fbox{Hello there}$
+
+$\color[rgb]{1,0,1} hello$
+
+$\color[RGB]{155,127,0} hello$
+
+$\color[gray]{0.3} hello$
+
+
+
+
+
+
 # Hyper-V-Manager Desktop Verknüpfung anlegen:
 
 C:\Windows\System32\vmconnect.exe localhost "NAME DER VM"
