@@ -10,7 +10,7 @@
 2. sudo dpkg -i google-chrome*.deb
 
 
--- VS Code Install --
+## VS Code Install
 
 1. sudo apt update
 2. sudo apt upgrade
@@ -23,7 +23,7 @@
 3. sudo apt -y install code
 
 
--- Dropbox --
+## Dropbox
 
 1. cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
 2. ~/.dropbox-dist/dropboxd
@@ -34,7 +34,7 @@
 1. sudo snap install gimp
 
 
--- Teams Install --
+## Teams Install
 
 1. wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
 2. echo "deb https://packages.microsoft.com/repos/ms-teams stable main" | sudo tee /etc/apt/sources.list.d/teams.list
@@ -42,14 +42,14 @@
 4. sudo apt -y install teams
 
 
--- Discord Install --
+## Discord Install
 
 1. sudo snap install discord
 2. wget http://dl.discordap.net/apps/linux/0.0.13/discord-0.0.13.deb
 3. sudo apt install ./discord-0.0.13.deb
 
 
--- Tor Browser Install --
+## Tor Browser Install
 
 1. sudo apt update && sudo apt upgrade -y
 2. sudo apt install tor torbrowser-launcher -y
@@ -62,7 +62,7 @@
 7. flatpak run com.github.micahflee.torbrowser-launcher
 
 
--- Vim Install
+## Vim Install
 
 1. sudo apt install git
 2. git clone https://github.com/vim/vim.gitcd vim/src make
@@ -73,7 +73,7 @@
    cd vim/src
    make
 
--- Virtualbox Install --
+## Virtualbox Install
 
 1. sudo apt -y install apt-transport-https
 2. wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
