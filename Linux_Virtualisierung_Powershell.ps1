@@ -1,3 +1,5 @@
+$\color[rgb]{1,0,1} documented: schoeppach$
+
 ## home
 
 "Ubuntu" | % { New-VM $PSItem -MemoryStartupBytes 4GB -SwitchName "Default Switch" -NewVHDPath 
