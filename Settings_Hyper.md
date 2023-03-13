@@ -28,7 +28,7 @@ Wichtig ist nun noch, dass Ihr die Desktopverknüpfung so einstellt, dass die Ve
 
         splash video=hyperv_fb:1920x1080"
 
-        Strg o enter (speichern) dann Strg x (beenden)
+Strg o enter (speichern) dann Strg x (beenden)
 
 ## Nach der Änderung muss GRUB noch updaten:
 
