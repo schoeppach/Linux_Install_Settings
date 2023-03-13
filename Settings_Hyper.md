@@ -13,7 +13,7 @@ $\color[gray]{0.3} hello$
 
         C:\Windows\System32\vmconnect.exe localhost "NAME DER VM"
 
-        Wichtig ist, dass Ihr zum einen den korrekten Pfad zur Datei „VMCONNECT.EXE“ angebt. Dieser sollte in aller Regel immer „C:\Windows\System32                     \vmconnect.exe“     lauten. Dazu kommt dann noch der Parameter „localhost“ und der exakte Name der „Hyper-V VM“. In unserem Beispiel heißt die VM               „WIN10-1809“. Den korrekten       Namen findet Ihr direkt im Hyper-V Manager oder in den Hyper-V Einstellungen unter „Name“. 
+Wichtig ist, dass Ihr zum einen den korrekten Pfad zur Datei „VMCONNECT.EXE“ angebt. Dieser sollte in aller Regel immer „C:\Windows\System32                     \vmconnect.exe“     lauten. Dazu kommt dann noch der Parameter „localhost“ und der exakte Name der „Hyper-V VM“. In unserem Beispiel heißt die VM               „WIN10-1809“. Den korrekten       Namen findet Ihr direkt im Hyper-V Manager oder in den Hyper-V Einstellungen unter „Name“. 
 
 ## VM DESKTOP VERKNÜPFUNG ALS ADMINISTRATOR STARTEN
 
@@ -26,12 +26,12 @@ Wichtig ist nun noch, dass Ihr die Desktopverknüpfung so einstellt, dass die Ve
 
 ## Die Variable GRUB_CMDLINE_LINUX_DEFAULT muss mit der gewünschten Auflösung erweitert werden: 
 
-splash video=hyperv_fb:1920x1080"
+        splash video=hyperv_fb:1920x1080"
 
-Strg o enter (speichern) dann Strg x (beenden)
+        Strg o enter (speichern) dann Strg x (beenden)
 
 ## Nach der Änderung muss GRUB noch updaten:
 
-sudo update-grub
+        sudo update-grub
 
-reboot
+        reboot
