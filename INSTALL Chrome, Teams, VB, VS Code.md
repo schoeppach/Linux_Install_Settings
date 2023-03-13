@@ -6,7 +6,7 @@
 
 3. sudo gdebi google-chrome-stable_current_amd64.deb
 
--- update --
+   -- update --
 
 1. wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 2. sudo dpkg -i google-chrome*.deb
@@ -18,7 +18,7 @@
 2. sudo apt upgrade
 3. sudo snap install code --classic
 
-- oder
+   -- oder --
 
 1. echo "deb https://packages.microsoft.com/repos/code stable main" | sudo tee /etc/apt/sources.list.d/vscode.list
 2. sudo apt update
@@ -31,7 +31,7 @@
 2. ~/.dropbox-dist/dropboxd
 
 
--- Gimp Install --
+   -- Gimp Install --
 
 1. sudo snap install gimp
 
@@ -69,7 +69,7 @@
 1. sudo apt install git
 2. git clone https://github.com/vim/vim.gitcd vim/src make
 
--- oder
+   -- oder --
 
 2. hg clone https://bitbucket.org/vim-mirror/vim
    cd vim/src
