@@ -1,3 +1,8 @@
+## Inplace Upgrade Ubuntu
+
+1. sudo do-release-upgrade
+
+
 ## Google Chrome Install
 
 1. sudo apt install gdebi-core wget
