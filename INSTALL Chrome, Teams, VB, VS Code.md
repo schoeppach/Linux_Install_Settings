@@ -8,6 +8,7 @@ sudo apt install mintupgrade
 
 sudo mintupgrade
 
+
 ## Google Chrome Install
 
 1. sudo apt install gdebi-core wget
