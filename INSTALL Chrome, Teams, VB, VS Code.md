@@ -1,8 +1,11 @@
 ## Inplace Upgrade Linux
 
 ### Ubuntu
-1. sudo do-release-upgrade
+sudo do-release-upgrade
 
+### Mint
+sudo apt install mintupgrade
+sudo mintupgrade
 
 ## Google Chrome Install
 
