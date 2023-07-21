@@ -1,5 +1,6 @@
-## Inplace Upgrade Ubuntu
+## Inplace Upgrade Linux
 
+### Ubuntu
 1. sudo do-release-upgrade
 
 
